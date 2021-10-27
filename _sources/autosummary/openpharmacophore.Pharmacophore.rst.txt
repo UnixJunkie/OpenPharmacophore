@@ -1,0 +1,35 @@
+﻿openpharmacophore.Pharmacophore
+===============================
+
+.. currentmodule:: openpharmacophore
+
+.. autoclass:: Pharmacophore
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Pharmacophore.__init__
+      ~Pharmacophore.add_element
+      ~Pharmacophore.add_to_NGLView
+      ~Pharmacophore.from_file
+      ~Pharmacophore.remove_elements
+      ~Pharmacophore.remove_feature
+      ~Pharmacophore.remove_molecular_system
+      ~Pharmacophore.set_molecular_system
+      ~Pharmacophore.show
+      ~Pharmacophore.to_ligandscout
+      ~Pharmacophore.to_moe
+      ~Pharmacophore.to_pharmagist
+      ~Pharmacophore.to_pharmer
+      ~Pharmacophore.to_rdkit
+   
+   
+
+   
+   
+   

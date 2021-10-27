@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>openpharmacophore.pharmacophoric_elements.NegativeChargeSphere &mdash; OpenPharmacophore 0+untagged.1.g12c015a documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> OpenPharmacophore
+          </a>
+              <div class="version">
+                0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Installation and Quick Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../contents/Installation.html">Installation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Pharmacophore</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../contents/Pharmacophore/Elements/index.html">Pharmacophoric elements</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_features.html">Features</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_features.html#Positive-charge">Positive charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_features.html#Negative-charge">Negative charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_features.html#Hydrogen-bond-donor">Hydrogen bond donor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_features.html#Hydrogen-bond-acceptor">Hydrogen bond acceptor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_features.html#Aromatic-ring">Aromatic ring</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_features.html#Hydrophobicity">Hydrophobicity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_features.html#Included-volume">Included volume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_features.html#Excluded-volume">Excluded volume</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_shapes.html">Shapes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_shapes.html#Point">Point</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_shapes.html#Sphere">Sphere</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_shapes.html#Sphere-and-vector">Sphere and vector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_shapes.html#Gaussian-kernel">Gaussian kernel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_shapes.html#Shapelet">Shapelet</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../contents/Pharmacophore/Elements/Pharmacophoric_elements.html">Elements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contents/Pharmacophore/Pharmacophore.html">Pharmacophore</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../contents/Pharmacophore/Pharmacophore.html#Building-a-pharmacophoric-model-by-hand">Building a pharmacophoric model by hand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contents/Pharmacophore/Pharmacophore.html#Importing-pharmacophoric-models">Importing pharmacophoric models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contents/Pharmacophore/Pharmacophore.html#Exporting-pharmacophoric-models">Exporting pharmacophoric models</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contents/Pharmacophore/Visualization.html">Visualization</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">API Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../api.html#pharmacophore">Pharmacophore</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="openpharmacophore.Pharmacophore.html">openpharmacophore.Pharmacophore</a></li>
+<li class="toctree-l3"><a class="reference internal" href="openpharmacophore.Pharmacophore.add_element.html">openpharmacophore.Pharmacophore.add_element</a></li>
+<li class="toctree-l3"><a class="reference internal" href="openpharmacophore.Pharmacophore.add_to_NGLView.html">openpharmacophore.Pharmacophore.add_to_NGLView</a></li>
+<li class="toctree-l3"><a class="reference internal" href="openpharmacophore.Pharmacophore.show.html">openpharmacophore.Pharmacophore.show</a></li>
+<li class="toctree-l3"><a class="reference internal" href="openpharmacophore.Pharmacophore.to_ligandscout.html">openpharmacophore.Pharmacophore.to_ligandscout</a></li>
+<li class="toctree-l3"><a class="reference internal" href="openpharmacophore.Pharmacophore.to_pharmer.html">openpharmacophore.Pharmacophore.to_pharmer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../api.html#pharmacophoric-elements">Pharmacophoric elements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../api.html#pharmacophoric-features">Pharmacophoric features</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../api.html#features-colorpalettes">Features colorpalettes</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../api.html#pharmacophoric-shapes">Pharmacophoric shapes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../api.html#demonstration">Demonstration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="openpharmacophore.demo.html">openpharmacophore.demo</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OpenPharmacophore</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>openpharmacophore.pharmacophoric_elements.NegativeChargeSphere</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/autosummary/openpharmacophore.pharmacophoric_elements.NegativeChargeSphere.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<section id="openpharmacophore-pharmacophoric-elements-negativechargesphere">
+<h1>openpharmacophore.pharmacophoric_elements.NegativeChargeSphere<a class="headerlink" href="#openpharmacophore-pharmacophoric-elements-negativechargesphere" title="Permalink to this headline"></a></h1>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, UIBCDF Lab at the Mexico City Childrens Hospital Federico Gomez and authors.Project structure based on the Computational Molecular Science Python Cookiecutter version 1.5.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
